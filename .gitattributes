@@ -1,0 +1,7 @@
+# Default behavior
+* text=auto
+
+# LF line endings
+*.sh  text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf

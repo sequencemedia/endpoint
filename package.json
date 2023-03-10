@@ -1,0 +1,30 @@
+{
+  "name": "@sequencemedia/endpoint",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./server.mjs",
+  "type": "module",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint . --ext .mjs --ext .cjs",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "del": "^7.0.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.20.2",
+    "core-js": "^3.29.0",
+    "eslint": "^8.35.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
